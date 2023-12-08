@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author zexxed
+ * @author Bruno Coelho
  */
 public class TeladeCadastro extends javax.swing.JFrame {
 
