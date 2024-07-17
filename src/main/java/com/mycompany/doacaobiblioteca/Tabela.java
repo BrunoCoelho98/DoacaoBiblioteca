@@ -6,7 +6,7 @@ package com.mycompany.doacaobiblioteca;
 
 /**
  *
- * @author zexxed
+ * @author Bruno Coelho
  */
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
@@ -39,7 +39,7 @@ public class Tabela extends AbstractTableModel {
             case 2: return livro.getAutor();
             case 3: return livro.getCategoria();
             case 4: return livro.getDoador().getNome();
-            case 5: return livro.getLocal(); // Supondo que o local seja o Campus
+            case 5: return livro.getLocal(); 
             case 6: return livro.getDataDoacao();
             case 7: return livro.getDataExpedicao();
             default: return null;
